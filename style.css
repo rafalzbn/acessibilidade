@@ -3,12 +3,12 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: #e1f7dc;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #275a27;
+    color: rgb(194, 218, 157);
     padding: 1rem;
     text-align: center;
 }
@@ -90,7 +90,7 @@ form input, form textarea {
 
 form button {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #2a5831;
     color: white;
     border: none;
     border-radius: 5px;
@@ -107,16 +107,16 @@ footer {
 }
 
 .high-contrast {
-    background-color: black;
-    color: yellow;
+    background-color: rgb(17, 14, 14);
+    color: rgb(247, 247, 210);
 }
 
 .high-contrast header,
 .high-contrast footer {
-    background-color: yellow;
+    background-color: rgb(5, 5, 5);
     color: black;
 }
 
 .high-contrast a {
-    color: red;
+    color: rgba(221, 164, 7, 0.795);
 }
