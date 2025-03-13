@@ -30,7 +30,7 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/sherek1.jpeg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -103,7 +103,7 @@ h2 {
 }
 
 #galeria {
-    background-color: #f7faf4;
+    background-color: #e0f1cf;
 
 }
 
@@ -121,7 +121,7 @@ h2 {
 }
 
 .formulario {
-    background-color: #ffffff;
+    background-color: #cff0aa;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
@@ -138,7 +138,7 @@ h2 {
 }
 
 .form-control {
-    background-color: #F1EDEF;
+    background-color: #eef3decc;
 }
 .menu-acessibilidade{
     position: fixed;
