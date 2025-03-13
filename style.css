@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
-    background-color: #e1f7dc;
+    background-color: #d0e6a5; /* Verde claro, inspirado na paleta do Shrek */
 }
 
 header {
-    background-color: #275a27;
-    color: rgb(194, 218, 157);
-    padding: 1rem;
+    background-color: #2e5129; /* Verde musgo, remetendo ao pântano */
+    color: #f2ebc9; /* Bege dourado para contraste suave */
+    padding: 1.5rem;
     text-align: center;
+    font-weight: bold;
 }
 
 nav ul {
@@ -26,9 +29,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #f2ebc9;
     text-decoration: none;
     font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e5b50a; /* Dourado inspirado na cor da coroa do Lord Farquaad */
 }
 
 .menu-acessibilidade {
@@ -42,6 +50,16 @@ nav ul li a {
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #496a2b;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu-acessibilidade button:hover {
+    background-color: #618c3d; /* Verde mais vibrante */
 }
 
 main {
@@ -50,7 +68,7 @@ main {
 }
 
 h1, h2 {
-    color: #333;
+    color: #2e5129;
 }
 
 #galeria {
@@ -62,10 +80,16 @@ h1, h2 {
 }
 
 #galeria img {
-    width: 150px;
-    height: 100px;
+    width: 180px;
+    height: 120px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 15px;
+    border: 3px solid #2e5129;
+    transition: transform 0.3s;
+}
+
+#galeria img:hover {
+    transform: scale(1.1);
 }
 
 form {
@@ -84,39 +108,51 @@ form {
 form input, form textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 2px solid #618c3d;
     border-radius: 5px;
 }
 
 form button {
     padding: 10px 20px;
-    background-color: #2a5831;
+    background-color: #2e5129;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #618c3d;
 }
 
 footer {
-    background-color: #495e2f;
-    color: white;
+    background-color: #2e5129;
+    color: #f2ebc9;
     text-align: center;
     padding: 1rem;
     margin-top: 20px;
 }
 
+/* Modo Alto Contraste */
 .high-contrast {
-    background-color: rgb(17, 14, 14);
-    color: rgb(247, 247, 210);
+    background-color: #0e0e0e;
+    color: #fff700;
 }
 
 .high-contrast header,
 .high-contrast footer {
-    background-color: rgb(5, 5, 5);
-    color: black;
+    background-color: #000;
+    color: white;
 }
 
 .high-contrast a {
-    color: rgba(221, 164, 7, 0.795);
+    color: #ffae00;
+}
+
+.high-contrast .menu-acessibilidade button,
+.high-contrast form button {
+    background-color: #ffae00;
+    color: black;
 }
