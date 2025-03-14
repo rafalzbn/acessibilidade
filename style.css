@@ -150,7 +150,7 @@ footer {
 /* Modo Alto Contraste */
 .high-contrast {
     background-color: #000000; /* Fundo preto */
-    color: #FFFF00; /* Texto amarelo forte */
+    color: #ff2600; /* Texto amarelo forte */
 }
 
 .high-contrast header,
@@ -178,7 +178,7 @@ footer {
 }
 
 .high-contrast #galeria img {
-    border: 3px solid #FFAE00; /* Bordas laranja para as imagens */
+    border: 3px solid #e23119; /* Bordas laranja para as imagens */
 }
 
 .high-contrast nav ul li a:hover {
