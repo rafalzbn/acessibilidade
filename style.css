@@ -75,7 +75,7 @@ main {
 }
 
 h1, h2 {
-    color: #2e5129;
+    color: #53774f;
 }
 
 #galeria {
@@ -136,7 +136,7 @@ form button:hover {
 }
 
 footer {
-    background-color: #2e5129;
+    background-color: #52814c;
     color: #f2ebc9;
     text-align: center;
     padding: 1rem;
